@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.0.2 (Python 3.11.2 on win32)" generated="20230308 01:14:57.878" rpa="false" schemaversion="3">
+<robot generator="Robot 6.0.2 (Python 3.11.2 on win32)" generated="20230308 01:31:49.710" rpa="false" schemaversion="3">
 <suite id="s1" name="VSCODE" source="C:\Users\under\Desktop\VSCODE">
 <suite id="s1-s1" name="Firefox Check" source="C:\Users\under\Desktop\VSCODE\firefox check.robot">
 <test id="s1-s1-t1" name="Open Browser and Navigate to URL" line="9">
@@ -7,30 +7,30 @@
 <arg>${URL}</arg>
 <arg>${BROWSER}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20230308 01:14:58.078" level="INFO">Opening browser 'firefox' to base url 'https://google.com/'.</msg>
-<msg timestamp="20230308 01:14:58.079" level="INFO">Firefox driver log is always forced to to: C:\Users\under\Desktop\VSCODE\results\geckodriver-3.log</msg>
-<status status="PASS" starttime="20230308 01:14:58.077" endtime="20230308 01:15:03.698"/>
+<msg timestamp="20230308 01:31:49.888" level="INFO">Opening browser 'firefox' to base url 'https://google.com/'.</msg>
+<msg timestamp="20230308 01:31:49.890" level="INFO">Firefox driver log is always forced to to: C:\Users\under\Desktop\VSCODE\results\geckodriver-4.log</msg>
+<status status="PASS" starttime="20230308 01:31:49.887" endtime="20230308 01:31:55.396"/>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20230308 01:15:03.699" endtime="20230308 01:15:03.967"/>
+<status status="PASS" starttime="20230308 01:31:55.397" endtime="20230308 01:31:55.665"/>
 </kw>
 <kw name="Title Should Be" library="SeleniumLibrary">
 <arg>Example Domain</arg>
 <doc>Verifies that the current page title equals ``title``.</doc>
-<msg timestamp="20230308 01:15:04.049" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
-<msg timestamp="20230308 01:15:04.049" level="FAIL">Title should have been 'Example Domain' but was 'Google'.</msg>
-<status status="FAIL" starttime="20230308 01:15:03.968" endtime="20230308 01:15:04.052"/>
+<msg timestamp="20230308 01:31:55.726" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-3.png"&gt;&lt;img src="selenium-screenshot-3.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20230308 01:31:55.727" level="FAIL">Title should have been 'Example Domain' but was 'Google'.</msg>
+<status status="FAIL" starttime="20230308 01:31:55.666" endtime="20230308 01:31:55.730"/>
 </kw>
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="NOT RUN" starttime="20230308 01:15:04.054" endtime="20230308 01:15:04.054"/>
+<status status="NOT RUN" starttime="20230308 01:31:55.730" endtime="20230308 01:31:55.731"/>
 </kw>
-<status status="FAIL" starttime="20230308 01:14:58.076" endtime="20230308 01:15:04.054">Title should have been 'Example Domain' but was 'Google'.</status>
+<status status="FAIL" starttime="20230308 01:31:49.886" endtime="20230308 01:31:55.731">Title should have been 'Example Domain' but was 'Google'.</status>
 </test>
-<status status="FAIL" starttime="20230308 01:14:57.905" endtime="20230308 01:15:04.057"/>
+<status status="FAIL" starttime="20230308 01:31:49.734" endtime="20230308 01:31:55.733"/>
 </suite>
-<status status="FAIL" starttime="20230308 01:14:57.881" endtime="20230308 01:15:04.060"/>
+<status status="FAIL" starttime="20230308 01:31:49.713" endtime="20230308 01:31:55.736"/>
 </suite>
 <statistics>
 <total>
